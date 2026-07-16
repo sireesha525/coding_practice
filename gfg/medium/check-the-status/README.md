@@ -11,7 +11,7 @@ _Description not available._
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-16T14:08:26.556Z  
+**Submitted:** 2026-07-16T14:08:30.354Z  
 
 ```py
 class Solution:
