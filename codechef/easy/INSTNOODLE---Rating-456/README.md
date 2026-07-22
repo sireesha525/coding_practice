@@ -63,7 +63,7 @@ Each person orders one packet, so the maximum number of customers that can be se
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-22T05:26:39.274Z  
+**Submitted:** 2026-07-22T05:26:50.596Z  
 
 ```java
 import java.util.*;
