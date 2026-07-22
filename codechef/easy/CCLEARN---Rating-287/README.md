@@ -61,7 +61,7 @@ If there are $9$ languages, then there will be $2 * 9 = 18$ courses in total.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-22T05:34:03.698Z  
+**Submitted:** 2026-07-22T05:34:19.455Z  
 
 ```java
 import java.util.*;
