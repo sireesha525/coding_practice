@@ -20,7 +20,7 @@ Which of these pairs are $\text{Oneful Pair}$?
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-23T05:32:45.225Z  
+**Submitted:** 2026-07-23T05:34:18.598Z  
 
 ```cpp
 import java.util.*;
@@ -33,16 +33,11 @@ class Codechef
 	public static void main (String[] args)
 	{
 		Scanner sc = new Scanner(System.in);
-		int x = sc.nextInt();
-		int y = sc.nextInt();
+		int a = sc.nextInt();
+		int b = sc.nextInt();
 		
 		// write your code here
-		if (x>=2*y){
-		    System.out.println("Yes");
-		}
-		else{
-		    System.out.println("No");
-		}
+		
 	}
 }
 
