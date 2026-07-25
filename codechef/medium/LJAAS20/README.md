@@ -29,7 +29,7 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-25T15:01:23.556Z  
+**Submitted:** 2026-07-25T15:01:32.932Z  
 
 ```java
 class Codechef
