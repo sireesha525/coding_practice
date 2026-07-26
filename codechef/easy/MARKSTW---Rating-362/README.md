@@ -52,34 +52,18 @@ Alice has scored $X = 1$ mark whereas Bob has scored $Y = 2$ marks. As Alice has
 
 ## Solution
 
-**Language:** Java  
+**Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-23T05:32:06.072Z  
+**Submitted:** 2026-07-26T06:01:08.259Z  
 
-```java
-import java.util.*;
-import java.lang.*;
-import java.io.*;
-
-
-class Codechef
-{
-	public static void main (String[] args)
-	{
-		Scanner sc = new Scanner(System.in);
-		int x = sc.nextInt();
-		int y = sc.nextInt();
-		
-		// write your code here
-		if (x>=2*y){
-		    System.out.println("Yes");
-		}
-		else{
-		    System.out.println("No");
-		}
-	}
-}
+```py
+x,y = map(int,input().split())
+if(2*x>=y):
+    print("YES")
+else:
+    print("NO")
+# write your code here
 
 ```
 
