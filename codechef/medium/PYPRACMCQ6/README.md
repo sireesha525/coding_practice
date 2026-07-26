@@ -48,7 +48,7 @@ if (2*Y >= X):
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-26T05:59:35.836Z  
+**Submitted:** 2026-07-26T05:59:46.764Z  
 
 ```cpp
 x,y = map(int,input().split())
