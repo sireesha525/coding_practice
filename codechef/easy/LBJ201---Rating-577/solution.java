@@ -1,32 +1,28 @@
-// How to check if A and C are both odd or even?
 import java.util.Scanner;
 
 class Codechef
 {
-	public static void main (String[] args)
-	{
-	    int a = 15;
-	    int c = 17;
-	    if(a%2 == 0 && c%2 == 0){
-	        System.out.println("Both A and C are even");
-	    }
-        else if(a%2!= 0 && c%2!= 0){
-	        System.out.println("Both A and C are odd");
-	    }
-	    else{
-	        System.out.println("A is odd and C is even or vice versa");
-	    }
-	    
-	    a = 15;
-	    c = 18;
-	    if(a%2== 0 && c%2== 0){
-	        System.out.println("Both A and C are even");
-	    }
-        else if(a%2!= 0 && c%2!= 0){
-	        System.out.println("Both A and C are odd");
-	    }
-	    else{
-	        System.out.println("A is odd and C is even or vice versa");
-	    }
-	}
+    public static void main (String[] args)
+    {
+        Scanner read = new Scanner(System.in);
+        int t = read.nextInt();
+        
+        for(int i = 0; i < t; i++){
+            int A = read.nextInt();
+            int C = read.nextInt();
+            
+            // If the sum of A and C is even, the integer B exists.
+            // (A + C) % 2 == 0 checks if the sum is even.
+            if ((A + C) % 2 == 0){
+                int B = (A + C) / 2;
+                System.out.println(B);
+            } else {
+                // If the sum is odd, no integer B exists.
+                System.out.println(-1);
+            }
+        }
+        read.close();
+    }
 }
+
+
