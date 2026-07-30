@@ -42,7 +42,7 @@ NONE
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-30T16:25:01.581Z  
+**Submitted:** 2026-07-30T16:25:09.150Z  
 
 ```cpp
 // Step 1: Read and understand the problem statement and sample test cases
