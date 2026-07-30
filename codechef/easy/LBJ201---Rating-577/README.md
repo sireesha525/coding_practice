@@ -11,7 +11,7 @@ _Description not available._
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-29T16:11:14.685Z  
+**Submitted:** 2026-07-30T04:42:58.789Z  
 
 ```java
 // How to check if A and C are both odd or even?
