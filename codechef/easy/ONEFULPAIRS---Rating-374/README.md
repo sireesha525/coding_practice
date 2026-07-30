@@ -64,34 +64,18 @@ $(1, 56)$ is not a $\text{Oneful Pair}$, since $1 + 56 + (1 \cdot 56) = 57 + 56 
 
 ## Solution
 
-**Language:** Java  
+**Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-23T05:38:55.980Z  
+**Submitted:** 2026-07-30T05:02:01.503Z  
 
-```java
-import java.util.*;
-import java.lang.*;
-import java.io.*;
-
-
-class Codechef
-{
-	public static void main (String[] args)
-	{
-		Scanner sc = new Scanner(System.in);
-		int a = sc.nextInt();
-		int b = sc.nextInt();
-		
-		// write your code here
-		if(a+b+(a*b)==111){
-		    System.out.println("Yes");
-		}
-		else{
-		    System.out.println("No");
-		}
-	}
-}
+```py
+a,b = map(int,input().split())
+if(a+b+(a*b)==111):
+    print("YES")
+else:
+    print("NO")
+# write your code here
 
 ```
 
