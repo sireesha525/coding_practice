@@ -14,7 +14,7 @@ Code this sub-problem in the IDE to continue.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-29T16:06:52.830Z  
+**Submitted:** 2026-07-30T04:42:43.337Z  
 
 ```java
 // How to find the average of 2 numbers?
