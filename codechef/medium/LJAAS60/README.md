@@ -4,54 +4,84 @@
 
 ## Problem
 
-_Description not available._
+### Grades of Student
+
+Write a program to print the grades of 3 students based on the marks they have obtained provided as input. The student is graded  **A**  if marks are greater than  **90**,  **B**  if marks are greater than  **70**,  **C**  if greater than or equal to  **40**, else  **F**.
+
+[ **Note:**  You need to take inputs for all 3 students.]
+
+### Sample 1:
+Input
+Output
+
+```
+95  
+40  
+20  
+```
+
+```
+A  
+C  
+F  
+```
 
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-31T06:15:17.576Z  
+**Submitted:** 2026-07-31T06:16:28.225Z  
 
 ```java
 import java.util.Scanner;
 
-public class Main 
+class Codechef
 {
-    public static void main(String[] args) 
-    {
-        Scanner scanner = new Scanner(System.in);
-        int num;
-        num = scanner.nextInt(); // input first number
-        // Check first number
-        if (num>0)
-            System.out.println("Positive");
-        else if (num<0)
-            System.out.println("Negative");
-        else
-            System.out.println("Zero");
-        
-        
-        num = scanner.nextInt(); // input second number
-        // Check second number
-        if (num>0)
-            System.out.println("Positive");
-        else if (num<0)
-            System.out.println("Negative");
-        else
-            System.out.println("Zero");
-        
-        
-        num = scanner.nextInt(); // input third number
-        // Check third number
-         if (num>0)
-            System.out.println("Positive");
-        else if (num<0)
-            System.out.println("Negative");
-        else
-            System.out.println("Zero");
-        
-    }
+	public static void main (String[] args) 
+	{
+		// your code goes here
+	Scanner sc=new Scanner(System.in);
+	int marks1=sc.nextInt();
+	if(marks1>90){
+	    System.out.println("A");
+	}
+	else if(marks1>70){
+	    System.out.println("B");
+	}
+	else if(marks1>=40){
+	    System.out.println("C");
+	}
+	else{
+	    System.out.println("F");
+	}
+	int marks2=sc.nextInt();
+	if(marks2>90){
+	    System.out.println("A");
+	}
+	else if(marks2>70){
+	    System.out.println("B");
+	}
+	else if(marks2>=40){
+	    System.out.println("C");
+	}
+	else{
+	    System.out.println("F");
+	}
+	int marks3=sc.nextInt();
+	if(marks3>90){
+	    System.out.println("A");
+	}
+	else if(marks3>70){
+	    System.out.println("B");
+	}
+	else if(marks3>=40){
+	    System.out.println("C");
+	}
+	else{
+	    System.out.println("F");
+	}    
+	}
 }
 ```
 
