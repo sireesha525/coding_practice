@@ -1,49 +1,39 @@
 import java.util.Scanner;
 
-class Codechef
+public class Main 
 {
-	public static void main (String[] args) 
-	{
-		// your code goes here
-	Scanner sc=new Scanner(System.in);
-	int marks1=sc.nextInt();
-	if(marks1>90){
-	    System.out.println("A");
-	}
-	else if(marks1>70){
-	    System.out.println("B");
-	}
-	else if(marks1>=40){
-	    System.out.println("C");
-	}
-	else{
-	    System.out.println("F");
-	}
-	int marks2=sc.nextInt();
-	if(marks2>90){
-	    System.out.println("A");
-	}
-	else if(marks2>70){
-	    System.out.println("B");
-	}
-	else if(marks2>=40){
-	    System.out.println("C");
-	}
-	else{
-	    System.out.println("F");
-	}
-	int marks3=sc.nextInt();
-	if(marks3>90){
-	    System.out.println("A");
-	}
-	else if(marks3>70){
-	    System.out.println("B");
-	}
-	else if(marks3>=40){
-	    System.out.println("C");
-	}
-	else{
-	    System.out.println("F");
-	}    
-	}
+    public static void main(String[] args) 
+    {
+        Scanner scanner = new Scanner(System.in);
+        int num;
+        num = scanner.nextInt(); // input first number
+        // Check first number
+        if (num>0)
+            System.out.println("Positive");
+        else if (num<0)
+            System.out.println("Negative");
+        else
+            System.out.println("Zero");
+        
+        
+        num = scanner.nextInt(); // input second number
+        // Check second number
+        if (num>0)
+            System.out.println("Positive");
+        else if (num<0)
+            System.out.println("Negative");
+        else
+            System.out.println("Zero");
+        
+        
+        num = scanner.nextInt(); // input third number
+        // Check third number
+         if (num>0)
+            System.out.println("Positive");
+        else if (num<0)
+            System.out.println("Negative");
+        else
+            System.out.println("Zero");
+        
+    }
 }
