@@ -40,25 +40,30 @@ Explanation: In this case, no transactions are done and the max profit = 0.
 
 ## Solution
 
-**Language:** Python  
-**Runtime:** 0 ms  
-**Memory:** 19.2 MB  
-**Submitted:** 2026-08-01T10:10:08.097Z  
+**Language:** Java  
+**Runtime:** 1 ms (beats 99.95%)  
+**Memory:** 94.6 MB (beats 33.57%)  
+**Submitted:** 2026-08-01T10:21:37.149Z  
 
-```py
-class Solution:
-    def maxProfit(self, prices: List[int]) -> int:
-        l,r=0,1
-        maxP=0
-        while r<len(prices):
-            if(prices[l]<prices[r]):
-                profit=prices[r]-prices[l]
-                maxP=max(maxP,profit)
-            else:
-                l=r
-            r+=1
-        return maxP
-        
+```java
+class Solution {
+    public int maxProfit(int[] prices) {
+        int l=0;
+        int r=1;
+        int maxP=0;
+        while (r < prices.length){
+            if (prices[l]<prices[r]){
+                int profit=prices[r]-prices[l];
+                maxP=Math.max(maxP,profit);
+            }
+            else{
+                l=r;
+            }
+            r++;
+        }
+return maxP;     
+    }
+}
 ```
 
 ---
