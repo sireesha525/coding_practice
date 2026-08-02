@@ -31,7 +31,7 @@ F
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-02T15:27:52.149Z  
+**Submitted:** 2026-08-02T15:28:04.985Z  
 
 ```java
 import java.util.Scanner;
