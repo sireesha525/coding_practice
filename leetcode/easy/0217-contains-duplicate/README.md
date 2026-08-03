@@ -43,21 +43,24 @@ All elements are distinct.
 
 ## Solution
 
-**Language:** Python  
-**Runtime:** 12 ms (beats 67.06%)  
-**Memory:** 32.3 MB (beats 31.19%)  
-**Submitted:** 2026-08-02T16:13:17.487Z  
+**Language:** Java  
+**Runtime:** 18 ms (beats 61.94%)  
+**Memory:** 108.1 MB (beats 30.54%)  
+**Submitted:** 2026-08-03T15:35:56.540Z  
 
-```py
-class Solution:
-    def containsDuplicate(self, nums: List[int]) -> bool:
-        hashSet=set()
-        for n in nums:
-            if n in hashSet:
-                return True
-            hashSet.add(n)
-        return False
-        
+```java
+class Solution {
+    public boolean containsDuplicate(int[] nums) {
+        HashSet<Integer> hashSet=new HashSet();
+        for(int i=0;i<nums.length;i++){
+            if (hashSet.contains(nums[i])){
+                return true;
+            }
+            hashSet.add(nums[i]);
+        }
+        return false;
+    }
+}
 ```
 
 ---
