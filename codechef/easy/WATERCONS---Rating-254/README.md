@@ -51,38 +51,20 @@ YES
 
 ## Solution
 
-**Language:** Java  
+**Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-25T14:54:33.961Z  
+**Submitted:** 2026-08-04T16:04:37.692Z  
 
-```java
-import java.util.*;
-import java.lang.*;
-import java.io.*;
-
-
-class Codechef
-{
-	public static void main (String[] args)
-	{
-		Scanner sc = new Scanner(System.in);
-		int t = sc.nextInt();
-		while(t-->0)
-		{
-    		int x = sc.nextInt();
-    		// write your code here
-    		if(x>=2000){
-    		    System.out.println("YES");
-    		}
-    		else{
-    		    System.out.println("NO");
-    		}
-		}
-		
-	}
-}
-
+```py
+t = int(input())
+for i in range(0,t):
+    x =  int(input())
+    # write your code here
+    if(x>=2000):
+        print("YES")
+    else:
+        print("NO")
 ```
 
 ---
