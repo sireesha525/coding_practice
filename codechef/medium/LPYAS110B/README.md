@@ -35,7 +35,7 @@ codechef has 3 vowels:  **o**,  **e**  and another  **e**
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-04T15:51:01.320Z  
+**Submitted:** 2026-08-04T15:52:12.079Z  
 
 ```py
 # cook your dish here
