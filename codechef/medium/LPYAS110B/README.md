@@ -4,23 +4,51 @@
 
 ## Problem
 
-_Description not available._
+### Count Vowels
+
+Write a program that uses a while loop to find no. of vowels in given input string of lowercase latin letters.
+
+ **Note:**  Vowels in lowercase latin letters are:  **a**,  **e**,  **i**,  **o**  and  **u**.
+
+### Input Format
+- The only line of input contains a string.
+### Output Format
+- The only line of output contains a single integer - The count of vowels in the input string.
+### Sample 1:
+Input
+Output
+
+```
+codechef
+```
+
+```
+3
+```
+
+### Explanation:
+
+codechef has 3 vowels:  **o**,  **e**  and another  **e**
 
 ## Solution
 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-31T05:42:47.729Z  
+**Submitted:** 2026-08-04T15:51:01.320Z  
 
 ```py
 # cook your dish here
-n=int(input())
-factorial=1
-while(n>0):
-    factorial *= n
-    n-=1
-print(factorial)
+str=input()
+ans=0
+i=0
+while i < len(str):
+    c=str[i]
+    if c=='a'or c=='e'or c=='i'or c=='o'or c=='u':
+        ans+=1
+    i+=1
+print(ans)
+
 ```
 
 ---
