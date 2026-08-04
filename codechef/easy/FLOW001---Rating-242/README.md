@@ -43,34 +43,18 @@ Output
 
 ## Solution
 
-**Language:** Java  
+**Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-25T14:46:06.162Z  
+**Submitted:** 2026-08-04T16:00:47.603Z  
 
-```java
-import java.util.*;
-import java.lang.*;
-import java.io.*;
-
-
-class Codechef
-{
-	public static void main (String[] args)
-	{
-		Scanner sc = new Scanner(System.in);
-		int T = sc.nextInt();
-		while(T-->0)
-		{
-    		int a = sc.nextInt();
-    		int b = sc.nextInt();
-    		// write your code here
-    		System.out.println(a+b);
-		}
-		
-	}
-}
-
+```py
+T = int(input())
+for tc in range(T):
+    (a,b) = map(int,input().split(' '))
+    # write your code here
+    ans=a+b
+    print(ans)
 ```
 
 ---
