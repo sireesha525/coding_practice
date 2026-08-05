@@ -63,7 +63,7 @@ HEAVY
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-02T15:52:23.380Z  
+**Submitted:** 2026-08-05T14:30:32.589Z  
 
 ```java
 import java.util.*;
