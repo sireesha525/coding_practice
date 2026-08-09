@@ -56,7 +56,7 @@ $4+12 = 16$, and the calculator appends a $1$ to print $161$.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-09T10:24:38.363Z  
+**Submitted:** 2026-08-09T10:25:20.489Z  
 
 ```java
 import java.util.*;
