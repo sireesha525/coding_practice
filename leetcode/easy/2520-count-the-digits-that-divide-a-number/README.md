@@ -46,29 +46,23 @@ Explanation: 1248 is divisible by all of its digits, hence the answer is 4.
 
 ## Solution
 
-**Language:** Java  
+**Language:** Python  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 41.9 MB (beats 74.68%)  
-**Submitted:** 2026-08-11T05:27:54.506Z  
+**Memory:** 19.2 MB (beats 58.75%)  
+**Submitted:** 2026-08-11T05:33:46.585Z  
 
-```java
-class Solution {
-    public int countDigits(int num) {
-       int t=num;
-       int c=0;
-       int d;
-        while(num>0){
-            d=num%10;
-            if(d!=0 && t%d==0){
-                c++;
-            }
-            num=num/10;
-
-        }
-    return c;
+```py
+class Solution:
+    def countDigits(self, num: int) -> int:
+        t=num
+        c=0
+        while(num>0):
+            d=num%10
+            if(t%d==0):
+                c=c+1
+            num=num//10
+        return c
         
-    }
-}
 ```
 
 ---
