@@ -32,18 +32,16 @@ Explanation: The odd numbers between 8 and 10 are [9].
 
 ## Solution
 
-**Language:** Java  
-**Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 42.4 MB (beats 7.67%)  
-**Submitted:** 2026-08-11T06:21:37.268Z  
+**Language:** Python  
+**Runtime:** 53 ms  
+**Memory:** 19.3 MB  
+**Submitted:** 2026-08-11T06:22:31.101Z  
 
-```java
-class Solution {
-    public int countOdds(int low, int high) {
-        return (high+1)/2-low/2;
+```py
+class Solution:
+    def countOdds(self, low: int, high: int) -> int:
+        return (high+1)//2-low//2
         
-    }
-}
 ```
 
 ---
