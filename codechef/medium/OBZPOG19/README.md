@@ -18,7 +18,7 @@ System.out.println(_____);
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-08T16:39:21.448Z  
+**Submitted:** 2026-08-11T15:50:35.299Z  
 
 ```cpp
 class Codechef {
