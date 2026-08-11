@@ -54,22 +54,27 @@ Output: 12
 
 ## Solution
 
-**Language:** Python  
+**Language:** Java  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 19.3 MB (beats 61.49%)  
-**Submitted:** 2026-08-11T05:05:28.873Z  
+**Memory:** 42.1 MB (beats 75.13%)  
+**Submitted:** 2026-08-11T05:07:46.101Z  
 
-```py
-class Solution:
-    def numberOfSteps(self, num: int) -> int:
-        steps=0
-        while num>0:
-            if num%2==0:
-                num=num//2
-            else:
-                num=num-1
-            steps=steps+1
-        return steps
+```java
+class Solution {
+    public int numberOfSteps(int num) {
+        int count=0;
+        while(num!=0){
+            if (num%2==0){
+                num=num/2;
+            }
+            else{
+                num=num-1;
+            }
+        count++;
+        }
+    return count; 
+    }
+}
 ```
 
 ---
