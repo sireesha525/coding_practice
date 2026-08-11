@@ -33,9 +33,9 @@ Explanation: The odd numbers between 8 and 10 are [9].
 ## Solution
 
 **Language:** Python  
-**Runtime:** 53 ms  
-**Memory:** 19.3 MB  
-**Submitted:** 2026-08-11T06:22:31.101Z  
+**Runtime:** 42 ms (beats 73.31%)  
+**Memory:** 19.2 MB (beats 18.41%)  
+**Submitted:** 2026-08-11T06:22:37.375Z  
 
 ```py
 class Solution:
