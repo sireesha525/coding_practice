@@ -4,7 +4,7 @@
 
 ## Problem
 
-Given an array of integers `nums` and an integer `target`, return  *indices of the two numbers such that they add up to `target`*.
+You are given an array of integers `nums` and an integer `target`, return  *indices of the two numbers such that they add up to `target`*.
 
 You may assume that each input would have  ***exactly *one solution**, and you may not use the* same* element twice.
 
@@ -52,24 +52,24 @@ Output: [0,1]
 
 ## Solution
 
-**Language:** Java  
-**Runtime:** 45 ms (beats 26.38%)  
-**Memory:** 46.9 MB (beats 74.19%)  
-**Submitted:** 2026-07-28T09:42:57.692Z  
+**Language:** Python  
+**Runtime:** 4 ms (beats 42.14%)  
+**Memory:** 20.6 MB (beats 17.50%)  
+**Submitted:** 2026-08-12T06:20:20.763Z  
 
-```java
-class Solution {
-    public int[] twoSum(int[] nums, int target) { 
-        for(int i=0;i<nums.length;i++){
-            for(int j=i+1;j<nums.length;j++){
-                if(nums[i]+nums[j]==target){
-                    return  new int[]{i,j};
-                }
-            }
-        }
-        return new int[]{};
-    }
-}
+```py
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        n=len(nums)
+        d={}
+        for i in range(n):
+            need=target-nums[i]
+            if need in d.keys():
+                return[i,d[need]]
+            d[nums[i]]=i
+        
+    
+            
 ```
 
 ---
