@@ -45,21 +45,26 @@ Output: 0
 
 ## Solution
 
-**Language:** Python  
-**Runtime:** 1 ms (beats 27.73%)  
-**Memory:** 19.1 MB (beats 97.90%)  
-**Submitted:** 2026-08-13T05:07:13.676Z  
+**Language:** Java  
+**Runtime:** 1 ms (beats 86.74%)  
+**Memory:** 42.8 MB (beats 61.93%)  
+**Submitted:** 2026-08-13T05:11:21.615Z  
 
-```py
-class Solution:
-    def numIdenticalPairs(self, nums: List[int]) -> int:
-        c=0
-        for i in range(len(nums)-1):
-            for j in range(i+1,len(nums)):
-                if (nums[i]==nums[j]):
-                    c=c+1
-        return c
+```java
+class Solution {
+    public int numIdenticalPairs(int[] nums) {
+        int c=0;
+        for(int i=0;i<nums.length;i++){
+            for (int j=i+1;j<nums.length;j++){
+                if(nums[i]==nums[j]){
+                    c++;
+                }
+            }
+         }
+        return c;
         
+    }
+}
 ```
 
 ---
