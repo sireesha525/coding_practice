@@ -28,7 +28,7 @@ Explanation: 2 * 4 = 8
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-16T06:22:09.399Z  
+**Submitted:** 2026-08-16T06:22:21.391Z  
 
 ```java
 class Solution {
