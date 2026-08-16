@@ -28,7 +28,7 @@ Explanation: Typecast "12" to int and then double it 12 * 2 = 24
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-16T06:25:35.402Z  
+**Submitted:** 2026-08-16T06:26:28.323Z  
 
 ```java
 import java.util.*;
