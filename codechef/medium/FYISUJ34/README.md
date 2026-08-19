@@ -4,28 +4,16 @@
 
 ## Problem
 
-### double in Java
-
-What will be the output of the following Java program?
-
-```
-class Codechef {
-    public static void main(String[] args) {
-        double price = 99.99;
-        System.out.println("Price: " + price);
-    }
-}
-
-```
+_Description not available._
 
 ## Solution
 
-**Language:** C++  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-19T14:39:20.593Z  
+**Submitted:** 2026-08-19T14:38:29.639Z  
 
-```cpp
+```java
 class Codechef {
     public static void main(String[] args) {
         //  Declare and assign precise gravitational acceleration value
