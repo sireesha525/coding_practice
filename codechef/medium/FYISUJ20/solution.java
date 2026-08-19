@@ -9,4 +9,3 @@ class Codechef {
         System.out.println("District Population: " + districtPopulation);
     }
 }
-
