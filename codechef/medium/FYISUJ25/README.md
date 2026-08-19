@@ -4,21 +4,22 @@
 
 ## Problem
 
-### Distance Traveled by Light
+### Global Financial Transactions Tracker
 
-Light moves at an incredible speed, covering vast distances in a short time.
-Your task is to store key values related to light’s speed and the number of seconds in a year.
-
- **Steps to Follow** 
-
-- Declare a long variable named speedOfLight to store the speed of light.
-- Declare another long variable named secondsInYear for the number of seconds in a year.
-- Print both values to verify they are correctly stored.
-### Expected Output
+Banks process billions of transactions daily, storing large transaction IDs and branch codes for tracking.
+Use  **`long`**  for  **transaction IDs**  due to their size and  **`short`**  for  **branch codes**  as they are smaller values.
 
 ```
-Speed of Light: 299792458 m/s  
-Seconds in a Year: 31536000  
+transactionID = 5_123_456_789_000L;  
+branchCode = 3052;  
+
+```
+
+ **Expected Output:** 
+
+```
+Transaction ID: 5123456789000  
+Branch Code: 3052  
 
 ```
 
@@ -27,23 +28,19 @@ Seconds in a Year: 31536000
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-19T14:27:27.516Z  
+**Submitted:** 2026-08-19T14:30:19.949Z  
 
 ```java
-class Codechef {
-    public static void main(String[] args) {
-        // Step 3: Declare and assign speed of light
-        long speedOfLight = 299792458;  // Speed of light in meters per second
-
-        // Step 4: Declare and assign seconds in a year
-        long secondsInYear = 31536000;  // Total seconds in one year
-
-        // Step 5: Print both values
-        System.out.println("Speed of Light: " + speedOfLight+ " m/s");
-        System.out.println("Seconds in a Year: " + secondsInYear);
+ class Codechef{
+    public static void main(String[] args){
+        // Cook your dish here 
+        long transactionID =5123456789000L;
+        short branchcode = 3052;
+        System.out.println("Transaction ID:"+transactionID);
+        System.out.println("Branch Code:"+branchcode);
+        
     }
 }
-
 ```
 
 ---
