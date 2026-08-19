@@ -31,7 +31,7 @@ District Population: 25000
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-15T16:03:05.037Z  
+**Submitted:** 2026-08-19T14:23:58.892Z  
 
 ```java
 class Codechef {
@@ -45,7 +45,6 @@ class Codechef {
         System.out.println("District Population: " + districtPopulation);
     }
 }
-
 
 ```
 
