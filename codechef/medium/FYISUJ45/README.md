@@ -4,42 +4,38 @@
 
 ## Problem
 
-### Deep-Sea Exploration Tracker
+### Fill in the Blank MCQ - Checking Door Status
 
-Marine scientists use deep-sea vehicles to study ocean depths, tracking precise measurements and monitoring operational status.
-Use  **`double`**  for depth accuracy and  **`boolean`**  to indicate if the vehicle is actively exploring.
-
- **Expected Output:** 
-If stored and printed correctly, your output should look something like:
+In this task, you need to assign a valid `boolean` value to represent the door’s status. Complete the following code:
 
 ```
-Depth Reached: 3452.78 meters  
-Vehicle Exploring: true  
+class Codechef {
+    public static void main(String[] args) {
+        boolean isDoorLocked = __ ; // Assign a valid boolean value
+        System.out.println("Is the door locked? " + isDoorLocked);
+    }
+}
 
 ```
-
-Run the code, modify values, and simulate different deep-sea missions!
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-19T14:51:36.165Z  
+**Submitted:** 2026-08-19T14:50:08.172Z  
 
-```java
+```cpp
 class Codechef {
     public static void main(String[] args) {
-        // Declare and assign deep-sea exploration data
-        double depthReached = 3_452.78;  // Depth reached in meters
-        boolean isExploring = true;     // Whether the vehicle is actively exploring
-
-        // Print the exploration data
-        System.out.println("Depth Reached: " + depthReached + " meters");
-        System.out.println("Vehicle Exploring: " + isExploring);
-
+        // Declare and assign a boolean variable
+        boolean isLightOn = true; 
+        
+        // Print the value of the variable
+        System.out.println("Is the light on? " + isLightOn);
     }
 }
+
 ```
 
 ---
