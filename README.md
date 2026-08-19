@@ -2,7 +2,7 @@
 
 # 🧠 Coding Solutions
 
-![Total Solved](https://img.shields.io/badge/Total_Solved-260-blue?style=for-the-badge)
+![Total Solved](https://img.shields.io/badge/Total_Solved-262-blue?style=for-the-badge)
 ![Streak](https://img.shields.io/badge/Streak-1_days-orange?style=for-the-badge)
 ![Last Synced](https://img.shields.io/badge/Last_Synced-8--19--2026-green?style=for-the-badge)
 
@@ -17,17 +17,17 @@
 | Difficulty | Solved |
 |:---:|:---:|
 | 🟢 Easy | **125** |
-| 🟡 Medium | **121** |
+| 🟡 Medium | **123** |
 | 🔴 Hard | **0** |
-| **Total** | **260** |
+| **Total** | **262** |
 
 ## 🛠️ Languages
 
 | Language | Solutions |
 |:---:|:---:|
-| Java | **150** |
+| Java | **151** |
 | Python | **76** |
-| C++ | **33** |
+| C++ | **34** |
 | C | **1** |
 
 ## 📂 Repository Structure
