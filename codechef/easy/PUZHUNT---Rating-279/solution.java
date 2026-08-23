@@ -8,7 +8,7 @@ class Codechef
 	{
 	    Scanner sc=new Scanner(System.in);
 	    int n=sc.nextInt();
-	    if(n>=10){
+	    if(n>=6 && n<=8){
 	        System.out.println("YES");
 	    }
 	    else{
