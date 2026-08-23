@@ -82,7 +82,7 @@ So, Chef's team can participate in the event.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-23T06:15:42.073Z  
+**Submitted:** 2026-08-23T06:16:35.661Z  
 
 ```java
 import java.util.*;
@@ -95,7 +95,7 @@ class Codechef
 	{
 	    Scanner sc=new Scanner(System.in);
 	    int n=sc.nextInt();
-	    if(n>=10){
+	    if(n>=6 && n<=8){
 	        System.out.println("YES");
 	    }
 	    else{
