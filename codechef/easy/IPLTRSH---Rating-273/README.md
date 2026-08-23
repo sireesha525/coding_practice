@@ -4,59 +4,61 @@
 
 ## Problem
 
-### Kitchen Timings
+### IPL Ticket Rush
 
-The working hours of Chef’s kitchen are from $X$ pm to $Y$ pm $(1 \le X \lt Y \le 12)$.
+DAIICT college students want to attend an IPL match.
 
-Find the number of hours Chef works.
+A total of $N$ students from the college want to go while only $M$ tickets are available for the match.
+
+Determine how many students won't be able to book tickets.
 
 ### Input Format
 - The first line of input will contain a single integer $T$, denoting the number of test cases.
-- Each test case consists of two space-separated integers $X$ and $Y$ — the starting and ending time of working hours respectively.
+- Each test case consists of two space-separated integers $N$ and $M$ — the number of students wants to go and the total number of tickets available, respectively.
 ### Output Format
 
-For each test case, output on a new line, the number of hours Chef works.
+For each test case, output on a new line the number of students who won't be able to book tickets.
 
 ### Constraints
-- $1 \leq T \leq 100$
-- $1 \leq X \lt Y \leq 12$
+- $1 \leq T \leq 1000$
+- $1 \leq N, M \leq 10^{5}$
 ### Sample 1:
 Input
 Output
 
 ```
 4
-1 2
-3 7
-9 11
-2 10
+5 3
+5 7
+4 1
+8 8
 
 ```
 
 ```
-1
-4
 2
-8
+0
+3
+0
 
 ```
 
 ### Explanation:
 
- **Test case $1$:**  Chef starts working at $1$ pm and works till $2$ pm. Thus, he works for $1$ hour.
+ **Test case $1$:**  There are $5$ students who want to go, and only $3$ tickets are available. Hence $2$ students won't be able to get tickets.
 
- **Test case $2$:**  Chef starts working at $3$ pm and works till $7$ pm. Thus, he works for $4$ hours.
+ **Test case $2$:**  There are $5$ students who want to go, and $7$ tickets are available. So, every one of them will get the tickets.
 
- **Test case $3$:**  Chef starts working at $9$ pm and works till $11$ pm. Thus, he works for $2$ hours.
+ **Test case $3$:**  There are $4$ students who want to go, and only $1$ ticket is available. Hence $3$ students won't be able to get tickets.
 
- **Test case $4$:**  Chef starts working at $2$ pm and works till $10$ pm. Thus, he works for $8$ hours.
+ **Test case $4$:**  There are $8$ students who want to go, and $8$ tickets are available. So, every one of them will get the tickets.
 
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-23T05:54:07.572Z  
+**Submitted:** 2026-08-23T06:00:06.877Z  
 
 ```java
 import java.util.*;
@@ -65,16 +67,21 @@ import java.io.*;
 
 class Codechef
 {
-	public static void main (String[] args) 
+	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-		Scanner sc= new Scanner (System.in);
+		Scanner sc=new Scanner (System.in);
 		int t=sc.nextInt();
 		while(t-->0){
-		    int x=sc.nextInt();
-		    int y=sc.nextInt();
-		    System.out.println(y-x);
+		    int n=sc.nextInt();
+		    int m=sc.nextInt();
+		    if(n<=m){
+		        System.out.println(0);
+		    }
+		    else{
+		        System.out.println(n-m);		    }
 		}
+
 	}
 }
 
