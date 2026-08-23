@@ -4,20 +4,16 @@ import java.io.*;
 
 class Codechef
 {
-	public static void main (String[] args) 
+	public static void main (String[] args)
 	{
-		// your code goes here
-		Scanner sc=new Scanner(System.in);
-		int t=sc.nextInt();
-		while(t-->0){
-		    int x=sc.nextInt();
-		    if(x>=30){
-		        System.out.println("YES");
-		    }
-		    else{
-		        System.out.println("NO");
-		    }
-		    
-		}
+	    Scanner sc=new Scanner(System.in);
+	    int n=sc.nextInt();
+	    if(n>=10){
+	        System.out.println("YES");
+	    }
+	    else{
+	        System.out.println("NO");
+	    }
+	    
 	}
 }
