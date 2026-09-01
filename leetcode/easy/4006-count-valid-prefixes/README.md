@@ -49,31 +49,33 @@ All prefixes of `s = "101"` are already alternating strings. Thus, the answer is
 
 ## Solution
 
-**Language:** Java  
-**Runtime:** 1 ms (beats 100.00%)  
-**Memory:** 43.4 MB (beats 99.62%)  
-**Submitted:** 2026-09-01T14:39:41.108Z  
+**Language:** C++  
+**Runtime:** 0 ms (beats 100.00%)  
+**Memory:** 9.5 MB (beats 22.34%)  
+**Submitted:** 2026-09-01T14:49:03.728Z  
 
-```java
+```cpp
 class Solution {
-    public int countValidPrefixes(String s) {
-        int count0=0;
-        int count1=0;
-        int ans=0;
-        for (int i=0;i< s.length();i++){
-            if (s.charAt(i) == '0') {
-                count0++;
+public:
+    int countValidPrefixes(string s) {
+        int count=0;
+        int n=s.size();
+        int zero=0;
+        int one=0;
+        for(int i=0;i<n;i++){
+            if(s[i]=='1'){
+                one++;
             }
             else{
-                count1++;
+                zero++;
             }
-            if(Math.abs(count0 - count1)<=1){
-            ans++;
+            if(abs(zero-one)<=1){
+            count++;
         }
-    } 
-    return ans; 
     }
-}
+    return count;
+    }
+};
 ```
 
 ---
