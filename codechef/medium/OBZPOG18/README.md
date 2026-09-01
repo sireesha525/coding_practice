@@ -24,7 +24,7 @@ true
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-11T15:50:24.632Z  
+**Submitted:** 2026-09-01T05:54:12.938Z  
 
 ```java
 class Codechef {
