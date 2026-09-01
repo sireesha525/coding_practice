@@ -30,7 +30,7 @@ Write the code and click on the "Submit" button to see the output.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-11T15:49:55.320Z  
+**Submitted:** 2026-09-01T05:53:43.888Z  
 
 ```java
 class Codechef {
