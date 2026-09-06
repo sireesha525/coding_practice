@@ -4,16 +4,30 @@
 
 ## Problem
 
-_Description not available._
+### Using Addition Assignment
+
+Fill in the blank with the correct operator to complete the Java program.
+
+```
+class Codechef {
+    public static void main(String[] args) {
+        int savings = 100;
+        savings __ 50; // Update savings using addition assignment
+
+        System.out.println("Total Savings: " + savings);
+    }
+}
+
+```
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-06T10:33:24.066Z  
+**Submitted:** 2026-09-06T10:33:38.651Z  
 
-```java
+```cpp
 class Codechef {
     public static void main(String[] args) {
         int score = 50; // Initial score
