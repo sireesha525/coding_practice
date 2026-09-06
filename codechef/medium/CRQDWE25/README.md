@@ -28,7 +28,7 @@ Even/Odd check (0 = Even, 1 = Odd): 0
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-06T10:25:41.052Z  
+**Submitted:** 2026-09-06T10:25:51.916Z  
 
 ```java
 // Declare class Codechef 
