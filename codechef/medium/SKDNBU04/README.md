@@ -4,29 +4,16 @@
 
 ## Problem
 
-### Displaying Number using Assignment Operator
-
-What will be the output of the following Java program?
-
-```
-class Codechef {
-    public static void main(String[] args) {
-        int number = 20;
-        number = 15; 
-        System.out.println("Number: " + number);
-    }
-}
-
-```
+_Description not available._
 
 ## Solution
 
-**Language:** C++  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-06T10:26:59.116Z  
+**Submitted:** 2026-09-06T10:26:39.065Z  
 
-```cpp
+```java
 class Codechef {
     public static void main(String[] args) {
         int count = 5; // Declaring and assigning an integer variable
