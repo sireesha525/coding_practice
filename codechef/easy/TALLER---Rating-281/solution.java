@@ -9,15 +9,15 @@ class Codechef
 		// your code goes here
 		Scanner sc= new Scanner (System.in);
 		int t = sc.nextInt();
-		while(t>0){
+	    for(int i=1;i<=t;i++){
 		    int x = sc.nextInt();
 		    int y = sc.nextInt();
-		if(x>y){
-		    System.out.println("A");
-		}
-		else{
-		    System.out.println("B");
-		}
+		     if(x>y){
+		         System.out.println("A");
+	      	}
+		    else{
+		        System.out.println("B");
+		    }
 
 		}
 		
