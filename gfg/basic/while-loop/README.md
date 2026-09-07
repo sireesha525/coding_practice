@@ -4,9 +4,9 @@
 
 ## Problem
 
-Given a number  **x**, the task is to print the numbers from  **x**  to 0 in decreasing order in a single line.
+Given a number  **x**, print the numbers from x to 0 in decreasing order in a single line.
 
- **Example:** 
+ **Examples:** 
 
 ```
 Input: x = 3
@@ -20,28 +20,29 @@ Output: 5 4 3 2 1 0
 Explanation: Numbers in decreasing order from 5 are 5 4 3 2 1 0.
 ```
 
-**Constraints:
-**0 ≤ x ≤ 100
-
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-15T05:19:52.798Z  
+**Submitted:** 2026-09-07T23:53:13.397Z  
 
-```java
-class Solution {
-    public static void utility(int x) {
-        // code here 
-        int i=0;
-        while(x>=0){
-            System.out.print(x+" ");
-            x--;
-        }
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int x;
+    cin >> x;
+
+    // code here
+    for(int i=x;i>=0;i--){
+        cout << i << " ";
     }
-}
+    
 
+    return 0;
+}
 ```
 
 ---
