@@ -17,17 +17,20 @@ Explanation: Prints the first message traditionally used to begin learning progr
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-18T15:22:35.571Z  
+**Submitted:** 2026-09-07T23:41:07.802Z  
 
-```java
-class GFG {
-    public static void main(String[] args) {
-        // code here
-        System.out.println("Hello World");
-    }
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    // code here
+    cout << "Hello World";
+
+    return 0;
 }
 ```
 
