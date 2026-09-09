@@ -42,7 +42,7 @@ $4$ notes of Rs. $2000$ make a total of $4 \cdot 2000 = 8000$ rupees. This is eq
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-09T00:02:36.568Z  
+**Submitted:** 2026-09-09T23:14:12.022Z  
 
 ```java
 import java.util.*;
