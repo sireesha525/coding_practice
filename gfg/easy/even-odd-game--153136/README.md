@@ -26,29 +26,28 @@ Output: Friend
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-16T06:29:21.811Z  
+**Submitted:** 2026-09-09T00:18:19.388Z  
 
-```java
-import java.util.Scanner;
+```cpp
+#include <iostream>
+using namespace std;
 
-class GFG {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
+int main() {
+    int n;
+    cin >> n;
 
-        // code here
-        if(n%2==0){
-            System.out.println("Friend");
-        }
-        else{
-            System.out.println("You");
-        }
-
-        sc.close();
+    // code here
+    if(n%2==0){
+        cout << "Friend";
     }
+    else{
+        cout << "You";
+    }
+
+    return 0;
 }
 ```
 
