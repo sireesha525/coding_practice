@@ -4,62 +4,60 @@
 
 ## Problem
 
-### Total Prize Money
+### Counting Words
 
-In a coding contest, there are prizes for the top rankers. The prize scheme is as follows:
+Harsh was recently gifted a book consisting of $N$ pages. Each page contains exactly $M$ words printed on it. As he was bored, he decided to count the number of words in the book.
 
-- Top $10$ participants receive rupees $X$ each.
-- Participants with rank $11$ to $100$ (both inclusive) receive rupees $Y$ each.
-
-Find the total prize money over all the contestants.
+Help Harsh find the total number of words in the book.
 
 ### Input Format
-- First line will contain $T$, number of test cases. Then the test cases follow.
-- Each test case contains of a single line of input, two integers $X$ and $Y$ - the prize for top $10$ rankers and the prize for ranks $11$ to $100$ respectively.
+- The first line of input will contain a single integer $T$, denoting the number of test cases.
+- Each test case consists of two space-separated integers on a single line, $N$ and $M$ — the number of pages and the number of words on each page, respectively.
 ### Output Format
 
-For each test case, output the total prize money over all the contestants.
+For each test case, output on a new line, the total number of words in the book.
 
 ### Constraints
-- $1 \leq T \leq 1000$
-- $1 \leq Y \leq X \leq 1000$
+- $1 \leq T \leq 100$
+- $1 \leq N \leq 100$
+- $1 \leq M \leq 100$
 ### Sample 1:
 Input
 Output
 
 ```
 4
-1000 100
-1000 1000
-80 1
-400 30
+1 1
+4 2
+2 4
+95 42
 
 ```
 
 ```
-19000
-100000
-890
-6700
+1
+8
+8
+3990
 
 ```
 
 ### Explanation:
 
- **Test Case $1$:**  Top $10$ participants receive rupees $1000$ and next $90$ participants receive rupees $100$ each. So, total prize money $= 10 \cdot 1000 + 90 \cdot 100 = 19000$.
+ **Test case $1$:**  The book consists of only $1$ page, and each page has only $1$ word. Hence, the total number of words is $1$.
 
- **Test Case $2$:**  Top $10$ participants receive rupees $1000$ and next $90$ participants receive rupees $1000$ each. So, total prize money $= 10 \cdot 1000 + 90 \cdot 1000 = 100000$.
+ **Test case $2$:**  The book consists of $4$ pages, and each page has $2$ words. Hence, the total number of words is $2+2+2+2=8$.
 
- **Test Case $3$:**  Top $10$ participants receive rupees $80$ and next $90$ participants receive rupee $1$ each. So, total prize money $= 10 \cdot 80 + 90 \cdot 1 = 890$.
+ **Test case $3$:**  The book consists of $2$ pages, and each page has $4$ words. Hence, the total number of words is $4+4=8$.
 
- **Test Case $4$:**  Top $10$ participants receive rupees $400$ and next $90$ participants receive rupees $30$ each. So, total prize money $= 10 \cdot 400 + 90 \cdot 30 = 6700$.
+ **Test case $4$:**  The book consists of $95$ pages, and each page has $42$ words. Hence, the total number of words is $3990$.
 
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-10T23:04:14.355Z  
+**Submitted:** 2026-09-10T23:15:37.596Z  
 
 ```java
 import java.util.*;
@@ -72,11 +70,11 @@ class Codechef
 	{
 		// your code goes here
 		Scanner sc=new Scanner (System.in);
-		int t=sc.nextInt();
+		int t =sc.nextInt();
 		while(t-->0){
-		    int x=sc.nextInt();
-		    int y=sc.nextInt();
-		    System.out.println(10*x + 90*y);
+		   int n=sc.nextInt();
+		   int m=sc.nextInt();
+		   System.out.println(n*m);
 		}
 
 	}
