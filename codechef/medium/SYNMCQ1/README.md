@@ -4,16 +4,18 @@
 
 ## Problem
 
-_Description not available._
+### Multiple Choice Question
+
+Which line of code will output the string  **"Hi"** ?
 
 ## Solution
 
-**Language:** c_cpp  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-10T23:54:41.797Z  
+**Submitted:** 2026-09-10T23:54:56.657Z  
 
-```c_cpp
+```cpp
 #include <iostream>
 using namespace std;
 
