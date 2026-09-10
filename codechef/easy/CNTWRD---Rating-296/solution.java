@@ -8,11 +8,11 @@ class Codechef
 	{
 		// your code goes here
 		Scanner sc=new Scanner (System.in);
-		int t=sc.nextInt();
+		int t =sc.nextInt();
 		while(t-->0){
-		    int x=sc.nextInt();
-		    int y=sc.nextInt();
-		    System.out.println(10*x + 90*y);
+		   int n=sc.nextInt();
+		   int m=sc.nextInt();
+		   System.out.println(n*m);
 		}
 
 	}
