@@ -4,14 +4,61 @@
 
 ## Problem
 
-_Description not available._
+### Battery Health
+
+Apple considers any iPhone with a battery health of $80\%$ or above, to be in  *optimal*  condition.
+
+Given that your iPhone has $X\%$ battery health, find whether it is in  *optimal*  condition.
+
+### Input Format
+- The first line of input will contain a single integer $T$, denoting the number of test cases.
+- The first and only line of each test case contains an integer $X$ — the battery health.
+### Output Format
+
+For each test case, output on a new line, `YES`, if the battery is in  *optimal*  condition, and `NO` otherwise.
+
+You may print each character in uppercase or lowercase. For example, `NO`, `no`, `No` and `nO`, are all considered identical.
+
+### Constraints
+- $1 \leq T \leq 100$
+- $0 \leq X \leq 100$
+### Sample 1:
+Input
+Output
+
+```
+4
+97
+42
+80
+10
+
+```
+
+```
+YES
+NO
+YES
+NO
+
+```
+
+### Explanation:
+
+ **Test case $1$:**  The battery health is $97 \%$ which is greater than equal to $80 \%$. Thus, the battery is in optimal condition.
+
+ **Test case $2$:**  The battery health is $42 \%$ which is less than $80 \%$. Thus, the battery is not in optimal condition.
+
+ **Test case $3$:**  The battery health is $80 \%$ which is greater than equal to $80 \%$. Thus, the battery is in optimal condition.
+
+ **Test case $4$:**  The battery health is $10 \%$ which is less than $80 \%$. Thus, the battery is not in optimal condition.
 
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-10T23:15:40.283Z  
+**Submitted:** 2026-09-10T23:18:36.925Z  
 
 ```java
 import java.util.*;
@@ -24,11 +71,15 @@ class Codechef
 	{
 		// your code goes here
 		Scanner sc=new Scanner (System.in);
-		int t =sc.nextInt();
+		int t = sc.nextInt();
 		while(t-->0){
-		   int n=sc.nextInt();
-		   int m=sc.nextInt();
-		   System.out.println(n*m);
+		    int x=sc.nextInt();
+		    if(x>=80){
+		        System.out.println("YES");
+		    }
+		    else{
+		        System.out.println("NO");
+		    }
 		}
 
 	}
