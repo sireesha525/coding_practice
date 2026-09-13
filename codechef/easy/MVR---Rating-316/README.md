@@ -84,7 +84,7 @@ Messi has $150$ points, whereas Ronaldo has $180$.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-13T00:40:23.599Z  
+**Submitted:** 2026-09-13T00:40:34.762Z  
 
 ```java
 import java.util.*;
