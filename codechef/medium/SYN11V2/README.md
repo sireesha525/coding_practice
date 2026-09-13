@@ -41,14 +41,14 @@ Write the exact code which we discussed in this lesson, to output the sum of 12 
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-13T05:16:53.206Z  
+**Submitted:** 2026-09-13T05:17:08.976Z  
 
 ```c_cpp
 // Write complete code to print the sum of 12 and 7
 #include<iostream>
 using namespace std;
 int main(){
-    cout<< 12+7;
+    cout<< 12 + 7;
 }
 
 ```
