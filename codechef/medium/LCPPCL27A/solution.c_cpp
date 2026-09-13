@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Fix the variable name to make the code work
+
+    int first_number = 8;
+    cout<<first_number<<endl;
+
+}
