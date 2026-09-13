@@ -4,32 +4,44 @@
 
 ## Problem
 
-### Multiplication
+### Division
 
 Listen
 
-Write a program which prints these on two separate lines.
+We have already done addition and multiplication inside cout. Let's do subtraction and division as well once.
 
-- Result of multiplication of 8 and 9
-- Result of (100 + 200) * 2
+For your revision, here are all the operators.
+
+Operator	Description	Example
++	Addition	a + b
+-	Subtraction	a - b
+ *Multiplication	a*  b
+/	Division	a / b
+### Task
+
+Write a program which does the following
+
+- Print the result of subtraction of 9 and 2
+- Print the result of division of 30 by 5
+- Output both results on separate lines
 
 ## Solution
 
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-11T00:03:57.491Z  
+**Submitted:** 2026-09-13T05:15:50.402Z  
 
 ```c_cpp
 #include <iostream>
 using namespace std;
 
 int main() {
-    
-    cout << 8* 9 << endl;
-    cout << (100 + 200) * 2<< endl;
-    
+	// Print the result of 9 - 2
+	cout<<9-2<<endl;
+	cout<<30/5<<endl;
 }
+
 ```
 
 ---
