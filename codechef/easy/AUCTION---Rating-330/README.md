@@ -61,36 +61,36 @@ Alice
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-05T14:45:32.079Z  
+**Submitted:** 2026-09-14T23:11:29.523Z  
 
 ```java
 import java.util.*;
 import java.lang.*;
 import java.io.*;
 
-/* Name of the class has to be "Main" only if the class is public. */
 class Codechef
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-        Scanner sc=new Scanner(System.in);
-        int t=sc.nextInt();
-        while(t-->0){
-            int x=sc.nextInt();
-            int y=sc.nextInt();
-            int z=sc.nextInt();
-            int a=(Math.max(Math.max(x,y),z));
-            if(a==x){
-                System.out.println("alice");
-            }
-            else if(a==y){
-                System.out.println("bob");
-            }
-            else {
-                System.out.println("charlie");
-            }
-            
-        }
+		// your code goes here
+		Scanner sc=new Scanner (System.in);
+		int t=sc.nextInt();
+		while(t-->0){
+		    int a=sc.nextInt();
+		    int b=sc.nextInt();
+		    int c=sc.nextInt();
+		    if(a>b && a>c){
+		        System.out.println("Alice");
+		    }
+		    else if (b>a && b>c){
+		        System.out.println("Bob");
+		    }
+		    else{
+		        System.out.println("Charlie");
+		    }
+		    
+		}
+
 	}
 }
 
