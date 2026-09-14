@@ -42,27 +42,30 @@ Explanation: The result cannot be 2, because [-2,-1] is not a subarray.
 
 **Language:** Python  
 **Runtime:** 0 ms  
-**Memory:** 19.4 MB  
-**Submitted:** 2026-09-14T23:53:25.332Z  
+**Memory:** 19.3 MB  
+**Submitted:** 2026-09-14T23:54:51.338Z  
 
 ```py
 class Solution:
     def maxProduct(self, nums: List[int]) -> int:
-        res=max(nums)
-        curMin=1
-        curMax=1
-        for n in nums:
-            if n==0:
-                curMin=1
-                curMax=1
-                continue
-            temp = curMax
-            curMax=max(n * curMax,n * curMin,n)
-            curMin=min(n * curMax,n * curMin,n)
-            res=max(res,curMax)
-        return res
+        res = max(nums)
+        curMin = 1
+        curMax = 1
 
-        
+        for n in nums:
+            if n == 0:
+                curMin = 1
+                curMax = 1
+                continue
+
+            tempMax = curMax
+
+            curMax = max(n * curMax, n * curMin, n)
+            curMin = min(n * tempMax, n * curMin, n)
+
+            res = max(res, curMax)
+
+        return res
 ```
 
 ---
