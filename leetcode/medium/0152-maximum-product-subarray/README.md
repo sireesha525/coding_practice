@@ -43,7 +43,7 @@ Explanation: The result cannot be 2, because [-2,-1] is not a subarray.
 **Language:** Python  
 **Runtime:** 0 ms  
 **Memory:** 19.4 MB  
-**Submitted:** 2026-09-14T23:52:28.064Z  
+**Submitted:** 2026-09-14T23:53:25.332Z  
 
 ```py
 class Solution:
@@ -56,7 +56,7 @@ class Solution:
                 curMin=1
                 curMax=1
                 continue
-            tmp=curMax*n
+            temp = curMax
             curMax=max(n * curMax,n * curMin,n)
             curMin=min(n * curMax,n * curMin,n)
             res=max(res,curMax)
