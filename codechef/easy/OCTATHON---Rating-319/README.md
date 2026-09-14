@@ -78,7 +78,7 @@ Chefina took $6$ hours to complete the marathon. Thus, she gets a `BRONZE` medal
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-14T00:19:18.547Z  
+**Submitted:** 2026-09-14T00:19:29.606Z  
 
 ```java
 import java.util.*;
