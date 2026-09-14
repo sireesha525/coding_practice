@@ -8,7 +8,7 @@ class Solution:
                 curMin=1
                 curMax=1
                 continue
-            tmp=curMax*n
+            temp = curMax
             curMax=max(n * curMax,n * curMin,n)
             curMin=min(n * curMax,n * curMin,n)
             res=max(res,curMax)
