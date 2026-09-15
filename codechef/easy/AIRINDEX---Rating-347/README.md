@@ -96,7 +96,7 @@ The AQI is greater than $100$. Thus, the government was not able to keep the AQI
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-15T23:09:27.727Z  
+**Submitted:** 2026-09-15T23:09:36.781Z  
 
 ```java
 import java.util.*;
