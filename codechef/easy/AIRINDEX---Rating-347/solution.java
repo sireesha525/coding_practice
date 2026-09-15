@@ -9,7 +9,7 @@ class Codechef
 		// your code goes here
 		Scanner sc=new Scanner (System.in);
 		int x=sc.nextInt();
-		if(x<=100){
+		if(x<100){
 		    System.out.println("YES");
 		}
 		else{
