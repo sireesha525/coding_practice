@@ -21,7 +21,7 @@ cout<<a;
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-15T14:47:06.644Z  
+**Submitted:** 2026-09-15T14:47:13.662Z  
 
 ```cpp
 #include <bits/stdc++.h>
