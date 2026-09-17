@@ -1,4 +1,4 @@
-# Mutations
+# String Formatting
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-yellow)
 
@@ -38,11 +38,22 @@ A single integer denoting $n$.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-17T06:00:06.365Z  
+**Submitted:** 2026-09-17T06:01:44.233Z  
 
 ```py
-def mutate_string(string, position, character):
-    return string[:position] + character + string[position + 1:]
+def print_formatted(number):
+    # your code goes here
+    width = len(bin(n)[2:])
+
+    for i in range(1, n + 1):
+        print(
+            str(i).rjust(width),
+            oct(i)[2:].rjust(width),
+            hex(i)[2:].upper().rjust(width),
+            bin(i)[2:].rjust(width)
+        )
+
+
 
 
 ```
