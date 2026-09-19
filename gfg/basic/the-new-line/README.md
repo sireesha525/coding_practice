@@ -23,7 +23,7 @@ Explanation: Each word is printed on a separate line.
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-19T15:04:09.328Z  
+**Submitted:** 2026-09-19T15:04:34.236Z  
 
 ```cpp
 #include <iostream>
