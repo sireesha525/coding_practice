@@ -62,7 +62,7 @@ HOT
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-19T06:12:21.556Z  
+**Submitted:** 2026-09-20T16:41:27.798Z  
 
 ```java
 import java.util.*;
