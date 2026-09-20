@@ -7,16 +7,20 @@ class Codechef
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		Scanner sc = new Scanner(System.in);
-        int t = sc.nextInt();
-        for (int i = 0; i < t; i++) {
+        int testcases = sc.nextInt();
+        
+        // Loop through each test case
+        for (int t = 0; t < testcases; t++) {
             int x = sc.nextInt();
-            int y = sc.nextInt();
             
-            // Check if the distance to home is less than or equal to the maximum travel distance
-            if (y <= 5 * x)
-                System.out.println("YES");
-            else
-                System.out.println("NO");
+            // Check the conditions based on the number of donations
+            if (x <= 3) {
+                System.out.println("BRONZE");
+            } else if (x <= 6) {
+                System.out.println("SILVER");
+            } else {
+                System.out.println("GOLD");
+            }
         }
         sc.close();
 	}
