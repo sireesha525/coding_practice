@@ -65,7 +65,7 @@ GOLD
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-20T16:48:10.483Z  
+**Submitted:** 2026-09-20T23:02:48.834Z  
 
 ```java
 import java.util.*;
