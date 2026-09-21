@@ -67,7 +67,7 @@ Not old enough to vote.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-21T09:23:53.788Z  
+**Submitted:** 2026-09-21T09:24:00.098Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
