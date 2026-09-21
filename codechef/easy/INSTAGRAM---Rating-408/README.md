@@ -58,7 +58,7 @@ YES
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-21T09:13:05.449Z  
+**Submitted:** 2026-09-21T09:13:37.990Z  
 
 ```java
 import java.util.*;
@@ -75,7 +75,7 @@ class Codechef
 		while(t-->0){
 		    int x=sc.nextInt();
 		    int y=sc.nextInt();
-		    if(x>10){
+		    if(x>10*y){
 		        System.out.println("YES");
 		    }
 		    else{
