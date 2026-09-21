@@ -49,7 +49,7 @@ Difference is: 6
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-21T00:27:34.818Z  
+**Submitted:** 2026-09-21T00:27:43.935Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
