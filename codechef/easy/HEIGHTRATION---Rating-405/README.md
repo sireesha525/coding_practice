@@ -64,7 +64,7 @@ The maximum of $\{27, 4\}$ is $27$. Hence the `Height` of $\frac{27}{4}$ is $27$
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-21T00:18:57.410Z  
+**Submitted:** 2026-09-21T09:09:23.436Z  
 
 ```java
 import java.util.*;
