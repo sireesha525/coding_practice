@@ -12,7 +12,7 @@ class Codechef
 		while(t-->0){
 		    int x=sc.nextInt();
 		    int y=sc.nextInt();
-		    if(x>10){
+		    if(x>10*y){
 		        System.out.println("YES");
 		    }
 		    else{
