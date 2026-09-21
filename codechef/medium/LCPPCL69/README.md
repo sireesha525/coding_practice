@@ -4,29 +4,29 @@
 
 ## Problem
 
-### If Statement
+### Curly braces
 
 Listen
 
-An `"if statement"` is written by using the `'if'` keyword.
+You might have noticed the '{' before and after `cout` in the previous problem.
+This '{' is what is known as curly bracket.
+C++ relies on curly brackets ('{' in the beginning and '}' at the end) to know what part of code is inside the if part of the code and what is not. Whatever is inside curly brackets is considered as one block of code.
+When writing an if or else if you don't mention a block of code using curly brackets it executes only the first statement of the if or else section.
 
-### Task
+ **`Run`**  this code and to identify the  **`compilation error`**.
+Fix the curly braces to solve the problem. The two output statements after if need to be in one block of code using curly brackets.
 
-Write a program which does the following
-
-- Take input for two integer variables a & b
-- Output "Coding is Fun!" to the console if a is greater than b.
 ### Sample 1:
 Input
 Output
 
 ```
-25
-20
+15
 ```
 
 ```
-Coding is Fun!
+Not old enough to vote.
+Wait for 3 years
 ```
 
 ### Sample 2:
@@ -35,11 +35,10 @@ Output
 
 ```
 20
-20
 ```
 
 ```
- 
+Old enough to vote!
 ```
 
 ## Solution
@@ -47,21 +46,24 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-21T09:21:06.849Z  
+**Submitted:** 2026-09-21T09:22:28.052Z  
 
 ```c_cpp
-//Remove _ and complete the code
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-    int a;
-    int b;
-    cin >> a;
-    cin >> b;
-    if ( a > b) {
-        cout << "Coding is Fun!";
+
+    int Age;
+    cin >> Age;
+    int Vage = 18;
+    if (Age < Vage) {//Insert {} before and after cout command
+        cout << "Not old enough to vote." << endl;
+        cout << "Wait for " << (Vage - Age) << " years"<<endl;
     }
+    else
+        cout << "Old enough to vote!";
+
 }
 ```
 
