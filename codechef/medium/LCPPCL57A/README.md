@@ -32,7 +32,7 @@ if the input is
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-21T00:22:04.328Z  
+**Submitted:** 2026-09-21T00:22:10.689Z  
 
 ```cpp
 #include <bits/stdc++.h>
