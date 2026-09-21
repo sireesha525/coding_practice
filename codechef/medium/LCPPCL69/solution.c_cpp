@@ -1,13 +1,16 @@
-//Remove _ and complete the code
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-    int a;
-    int b;
-    cin >> a;
-    cin >> b;
-    if ( a > b) {
-        cout << "Coding is Fun!";
+
+    int Age;
+    cin >> Age;
+    int Vage = 18;
+    if (Age < Vage) {//Insert {} before and after cout command
+        cout << "Not old enough to vote." << endl;
+        cout << "Wait for " << (Vage - Age) << " years"<<endl;
     }
+    else
+        cout << "Old enough to vote!";
+
 }
